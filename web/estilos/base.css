@@ -68,7 +68,8 @@ body {
 }
 
 .tabla tr.impar{
-    
+    background-color: gray;
+    color: black;
 }
 
 #pie{

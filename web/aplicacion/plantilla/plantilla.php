@@ -21,7 +21,7 @@ function inicioCabecera($titulo)
 <!DOCTYPE html>
 <html lang="es">
     <head>
-        <meta charset="utf-8">
+        <meta charset="UTF-8">
 
         <!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
         Remove this if you use the .htaccess -->
