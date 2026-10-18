@@ -64,7 +64,7 @@ function inicioCuerpo($cabecera)
                 
             </div>
             <div id="barraMenu">
-            <a href="/index.php">Inicio</a>
+            <a class="boton" href="/index.php">Inicio</a>
             </div>
             
             <div>
@@ -96,7 +96,7 @@ function mostrarBarra($barra)
         $texto = $item["TEXTO"] ?? "";
         $adicional = $item["ADICIONAL"] ?? "";
 
-        echo !empty($enlace) ? "<a {$enlace}>{$texto} {$adicional}</a>" :
+        echo !empty($enlace) ? "<a class='boton' {$enlace}>{$texto} {$adicional}</a>" :
             "<p>{$texto} {$adicional}</p>";
     }
 }
